@@ -1,0 +1,8 @@
+diff --git a/desktops/Plasma-Mobile/kcmfonts b/desktops/Plasma-Mobile/kcmfonts
+index 032dd08..e20811b 100644
+--- a/desktops/Plasma-Mobile/kcmfonts
++++ b/desktops/Plasma-Mobile/kcmfonts
+@@ -1,2 +1,2 @@
+ [General]
+-forceFontDPIWayland=96
++forceFontDPIWayland=200
