@@ -1,0 +1,23 @@
+From 328b0e8ce4a1a2d0d0dad9e668380138a4ed86bc Mon Sep 17 00:00:00 2001
+From: Mikhail Rogozhin <m.rogozhin@rosalinux.ru>
+Date: Sat, 3 Sep 2022 17:40:20 +0300
+Subject: maliit keyboard as default
+
+---
+ desktops/Plasma-Mobile/kdeglobals | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/desktops/Plasma-Mobile/kdeglobals b/desktops/Plasma-Mobile/kdeglobals
+index 12ebad2..3508fd9 100644
+--- a/desktops/Plasma-Mobile/kdeglobals
++++ b/desktops/Plasma-Mobile/kdeglobals
+@@ -1,2 +1,6 @@
+ [KDE]
+ LookAndFeelPackage=org.kde.breezedark
++
++[Wayland]
++InputMethod=/usr/share/applications/com.github.maliit.keyboard.desktop
++
+-- 
+2.27.0
+

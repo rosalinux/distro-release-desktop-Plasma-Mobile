@@ -14,6 +14,7 @@ Release:	0.2
 URL:		https://github.com/OpenMandrivaSoftware/distro-release
 Source0:	https://github.com/OpenMandrivaSoftware/distro-release/archive/%{version}/distro-release-%{version}.tar.gz
 Patch0:         0001-fix-scaling-for-ayya-1600-720.patch
+Patch1:         0001-maliit-keyboard-as-default.patch
 BuildArch:	noarch
 Group:		Graphical Desktop/KDE
 Requires:	task-plasma-mobile-minimal
